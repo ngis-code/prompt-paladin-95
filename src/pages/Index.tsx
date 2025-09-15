@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import BookingModal from "@/components/BookingModal";
@@ -29,24 +30,34 @@ const Index = () => {
 
   return (
     <main className="min-h-screen">
+      <Header onBookConsultation={handleBookConsultation} />
+      
       <Hero 
         onBookConsultation={handleBookConsultation}
         onShowGallery={handleShowGallery}
       />
       
-      <Services onBookService={handleBookService} />
+      <div id="services">
+        <Services onBookService={handleBookService} />
+      </div>
       
       <div id="gallery">
         <Gallery />
       </div>
       
-      <About onBookConsultation={handleBookConsultation} />
+      <div id="about">
+        <About onBookConsultation={handleBookConsultation} />
+      </div>
       
       <Testimonials />
       
-      <FAQ />
+      <div id="faq">
+        <FAQ />
+      </div>
       
-      <Footer onBookConsultation={handleBookConsultation} />
+      <div id="contact">
+        <Footer onBookConsultation={handleBookConsultation} />
+      </div>
 
       <BookingModal 
         isOpen={showBookingModal}

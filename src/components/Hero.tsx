@@ -8,7 +8,7 @@ interface HeroProps {
 
 const Hero = ({ onBookConsultation, onShowGallery }: HeroProps) => {
   return (
-    <section className="relative bg-gradient-to-br from-background to-neutral-warm py-20 lg:py-32">
+    <section className="relative bg-gradient-to-br from-background to-neutral-warm pt-32 pb-20 lg:pt-40 lg:pb-32">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
