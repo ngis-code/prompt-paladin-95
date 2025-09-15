@@ -32,12 +32,12 @@ const Header = ({ onBookConsultation }: HeaderProps) => {
           <div className="flex items-center space-x-3">
             <img 
               src={logo} 
-              alt="Clean & Calm Organizing" 
+              alt="Refined Haven Home Services" 
               className="h-10 w-10 object-contain"
             />
             <div className="flex flex-col">
-              <h1 className="text-lg font-semibold text-foreground">Clean & Calm</h1>
-              <p className="text-sm text-muted-foreground hidden sm:block">Organizing</p>
+              <h1 className="text-lg font-semibold text-foreground">Refined Haven</h1>
+              <p className="text-sm text-muted-foreground hidden sm:block">Home Services</p>
             </div>
           </div>
 

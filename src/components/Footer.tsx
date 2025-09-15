@@ -13,7 +13,7 @@ const Footer = ({ onBookConsultation }: FooterProps) => {
           {/* Company Info */}
           <div className="lg:col-span-2 space-y-6">
             <div>
-              <h3 className="text-2xl font-bold mb-2">Clean & Calm Organizing</h3>
+              <h3 className="text-2xl font-bold mb-2">Refined Haven</h3>
               <p className="text-gray-300 max-w-md leading-relaxed">
                 Professional home organizing, move cleaning, and staging services that transform your space and simplify your life.
               </p>
@@ -44,7 +44,7 @@ const Footer = ({ onBookConsultation }: FooterProps) => {
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-primary" />
                 <div>
-                  <div className="font-medium">hello@cleanandcalm.com</div>
+                  <div className="font-medium">hello@refined-haven.com</div>
                   <div className="text-sm text-gray-300">Free quotes</div>
                 </div>
               </div>
@@ -103,7 +103,7 @@ const Footer = ({ onBookConsultation }: FooterProps) => {
         <div className="border-t border-gray-700 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-300">
             <div>
-              © 2024 Clean & Calm Organizing. All rights reserved.
+              © 2024 Refined Haven. All rights reserved.
             </div>
             <div className="flex gap-6">
               <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
