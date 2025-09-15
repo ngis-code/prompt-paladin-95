@@ -8,6 +8,7 @@ import About from "@/components/About";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
+import FloatingBookingButton from "@/components/FloatingBookingButton";
 
 const Index = () => {
   const [showBookingModal, setShowBookingModal] = useState(false);
@@ -58,6 +59,8 @@ const Index = () => {
       <div id="contact">
         <Footer onBookConsultation={handleBookConsultation} />
       </div>
+
+      <FloatingBookingButton onBookConsultation={handleBookConsultation} />
 
       <BookingModal 
         isOpen={showBookingModal}
